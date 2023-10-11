@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Santos SPORT</title>
+    <link rel="icon" href="logo.png">
+    <style>
+
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: #333; 
+            padding: 10px 20px;
+        }
+
+        header img {
+            height: 50px; 
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+
+        nav li {
+            margin: 0 10px;
+        }
+
+        nav a {
+            color: #fff; 
+            text-decoration: none;
+        }
+        
+        nav a.active {
+            color: greenyellow;
+        }
+        body {
+            background-image: url('3.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+
+         main, aside {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            margin: 20px;
+            padding: 20px;
+        }
+
+        aside {
+            width: 140px;
+        }
+
+        aside h2, main h2 {
+            color: #333;
+        }
+
+        aside ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        aside li {
+            margin: 5px 0;
+        }
+
+        aside a {
+            text-decoration: none;
+            color: #007bff;
+        }
+
+        aside a:hover {
+            text-decoration: underline;
+        }
+
+        main section {
+            margin-bottom: 20px;
+        }
+
+        main section h2 {
+            margin-top: 0;
+            color: #333;
+        }
+
+        main p {
+            color: #555;
+        }
+        
+        .main-content {
+            flex: 1; 
+            max-width: 525px;
+
+        }
+
+        footer {
+            background-color: #333;
+            text-align: center;
+            padding: 10px;
+            position: sticky;
+            bottom: 0;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <section id="inicio"></section>
+
+    <header id="inicio">
+        <img src="logo.png" alt="logo" >
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active">Inicio</a></li>
+                <li><a href="-galeria.html">Galería</a></li>
+                <li><a href="-ubicación.html">Ubicación</a></li>
+                <li><a href="-contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<center>
+    <h1 style="font-family: 'Impact', sans-serif; font-size: 4em; color: white; background-color: #333; width: 500px;">Nueva Colección</h1>
+</center>
+
+<center>
+    <video autoplay muted loop playsinline width="800" height="600">
+        <source src="videoboxeo.mp4" type="video/mp4">
+    </video>
+</center>
+
+
+    <aside>
+        <h2>Categorías</h2>
+            <ul>
+                <li><a href="#ropa">Ropa Deportiva</a></li>
+                <li><a href="#calzado">Calzado</a></li>
+                <li><a href="#accesorios">Accesorios</a></li>
+                <li><a href="#cita">Cita del día</a></li>
+            </ul>
+    </aside>
+
+
+<center>
+    <video autoplay muted loop playsinline width="800" height="600">
+        <source src="videobaloncesto.mp4" type="video/mp4">
+    </video>
+</center>
+
+    <main class="main-content">
+        <section id="ropa">
+            <h2>Ropa Deportiva</h2>
+            <p>Encuentra la mejor selección de ropa deportiva para tus actividades favoritas.</p>
+            <p>
+                <ul>
+                    <li>Boxeo</li>
+                    <li>Fútbol</li>
+                    <li>Baloncesto</li>
+                </ul>
+            </p>
+        </section>
+
+        <section id="calzado">
+            <h2>Calzado</h2>
+            <p>Descubre nuestra amplia gama de calzado deportivo para todas las edades.</p>
+            <p>
+                <ul>
+                    <li>Nike</li>
+                    <li>Adidas</li>
+                    <li>Converse</li>
+                </ul>
+            </p>
+        </section>
+
+        <section id="accesorios">
+            <h2>Accesorios</h2>
+            <p>Encuentra los accesorios esenciales para complementar tu equipo deportivo.</p>
+            <p>
+                <dl>
+                    <dt>Equipamiento para Boxeo</dt>
+                        <br>
+                    <dd>Guantes, ropa, tenis y vendas</dd>
+                        <br>
+                    <dt>Equipamiento para Fútbol</dt>
+                        <br>
+                    <dd>Equipaciones, medias y botas</dd>
+                        <br>
+                    <dt>Equipamiento para Baloncesto</dt>
+                        <br>
+                    <dd>Mochilas, cintas y muñequeras</dd>
+                        <br>
+                </dl>
+            </p>
+        </section>
+
+        <section id="cita">
+            <h2>Cita del día</h2>
+            <p><blockquote><q>Las personas que te cruces cuando subas a la cima te las puedes volver a cruzar cuando bajes al infierno. Mike Tyson</q></blockquote></p>
+        </section>
+
+        <a href="#inicio"><img style="position: fixed; bottom: 20%; right: 2%" src="Flecha.jpg" width="30" height="30"></a>
+
+    </main>
+
+    <footer style="color: white;">
+        <p>Página de Negocio Ficticio realizado por Adrián S.C</p>
+        <p>Enlace al Github pinchar en el emoticono <a href="https://github.com/AdrixTyLe-coder">&#127936;</a></p>
+    </footer>
+
+</body>
+
+</html>

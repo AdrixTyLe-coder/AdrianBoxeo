@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Santos SPORT</title>
+    <link rel="icon" href="logo.png">
+    <style>
+        
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: #333; 
+            padding: 10px 20px;
+        }
+
+        header img {
+            height: 50px; 
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+
+        nav li {
+            margin: 0 10px;
+        }
+
+        nav a {
+            color: #fff; 
+            text-decoration: none;
+        }
+
+        nav a.active {
+            color: greenyellow;
+        }
+
+        body {
+            background-image: url('lisoazul.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            color: white;
+        }
+
+        form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            font-family: Arial, sans-serif;
+            color: black;
+        }
+
+        label {
+            font-weight: bold;
+            margin-bottom: 5px;
+            display: block;
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        input[type="submit"] {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+        
+        p.container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            max-width: 600px;
+            text-align: justify;
+            color: black;
+        }
+
+        p {
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background-color: #333;
+            text-align: center;
+            padding: 10px;
+            position: sticky;
+            bottom: 0;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <section id="inicio"></section>
+
+    <header>
+        <img src="logo.png" alt="logo" >
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="-galeria.html">Galería</a></li>
+                <li><a href="-ubicación.html">Ubicación</a></li>
+                <li><a href="-contacto.html" class="active">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    
+
+
+<center>
+    <h1 style="font-family: 'Impact', sans-serif; font-size: 4em; color: white; background-color: #333; width: 700px;">Formulario de Contacto</h1>
+</center>
+
+<center>
+    <form action="" method="post">
+
+        <label for="nombre">Díganos su nombre: <br></label>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+
+        <label for="email">Ponga aquí su email para darle una respuesta: <br></label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="mensaje">Su mensaje:</label><br>
+        <textarea id="mensaje" name="mensaje" rows="4" cols="50" required></textarea><br><br>
+
+        <input type="submit" value="Enviar">
+
+    </form>
+</center>
+
+<center>
+    <h1 style="font-family: 'Impact', sans-serif; font-size: 4em; color: white; background-color: #333; width: 700px;">Historia</h1>
+</center>
+
+<center>
+    <p class="container">
+        Adrián, un apasionado del deporte desde la infancia, persiguió su sueño de abrir una tienda de artículos deportivos con una visión clara: crear un espacio comunitario donde los atletas pudieran encontrar inspiración y todo lo que necesitaban para alcanzar sus metas. Con meticulosidad, seleccionó productos de alta calidad y estableció relaciones con proveedores de confianza. La inauguración de "Deportes de Éxito" fue un éxito, atrayendo a la comunidad local y convirtiéndose en un punto de encuentro para amantes del deporte.
+    </p>
+    <p class="container">
+        La tienda de Adrián no solo ofrecía productos excepcionales, sino que también se convirtió en un pilar vital en la comunidad deportiva. Organizaba eventos, patrocinaba equipos y colaboraba con entrenadores para brindar educación gratuita. Su dedicación y amor por el deporte eran palpables en cada rincón de su tienda, inspirando a otros a perseguir sus propios sueños y recordándoles que con determinación y pasión, cualquier meta es alcanzable.
+    </p>
+    <p class="container">
+        La historia de Adrián y "Deportes de Éxito" es un testimonio conmovedor de que los sueños pueden hacerse realidad con trabajo duro y visión clara. Su éxito no solo transformó su vida, sino que también dejó una huella duradera en la comunidad, recordándonos que el camino hacia el éxito está lleno de desafíos, pero con pasión y compromiso, se pueden superar todos los obstáculos.
+    </p>
+</center>
+
+    <a href="#inicio"><img style="position: fixed; bottom: 20%; right: 2%" src="Flecha.jpg" width="30" height="30"></a>
+
+    <footer style="color: white;">
+        <p>Página de Negocio Ficticio realizado por Adrián S.C</p>
+        <p>Enlace al Github pinchar en el emoticono <a href="https://github.com/AdrixTyLe-coder">&#127936;</a></p>
+    </footer>
+
+</body>
+
+</html>
