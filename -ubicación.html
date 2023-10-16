@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Santos SPORT</title>
+    <link rel="icon" href="logo.png">
+    <style>
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: #333; 
+            padding: 10px 20px;
+        }
+
+        header img {
+            height: 50px; 
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+
+        nav li {
+            margin: 0 10px;
+        }
+
+        nav a {
+            color: #fff; 
+            text-decoration: none;
+        }
+
+        nav a.active {
+            color: greenyellow;
+        }
+        
+        body {
+            background-image: url('fondo ropa.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+
+        form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            font-family: Arial, sans-serif;
+            color: black;
+        }
+
+        label {
+            font-weight: bold;
+            margin-bottom: 5px;
+            display: block;
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        input[type="submit"] {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+
+        footer {
+            background-color: #333;
+            text-align: center;
+            padding: 10px;
+            position: sticky;
+            bottom: 0;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <section id="inicio"></section>
+
+    <header>
+        <img src="logo.png" alt="logo" >
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="-galeria.html">Galería</a></li>
+                <li><a href="-ubicación.html" class="active">Ubicación</a></li>
+                <li><a href="-contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<center>
+    <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d49932.3525543755!2d-0.5057433!3d38.5390228!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd622eed204fffff%3A0x7a2e9482d5f631cb!2sSantos%20Sport!5e0!3m2!1ses!2ses!4v1696509165218!5m2!1ses!2ses" 
+        width="800" 
+        height="600" 
+        style="border:0;" 
+        allowfullscreen="" 
+        loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+</center>
+
+<br>
+<br>
+<br>
+
+<center>
+<h1 style="font-family: 'Impact', sans-serif; font-size: 4em; color: white; background-color: #333; width: 400px;">Cita Online</h1>
+</center>
+
+    <form action="#" method="post">
+        <label for="nombre_tienda">Tu nombre</label>
+        <input type="text" id="nombre_tienda" name="nombre_tienda" required><br><br>
+        
+        <label for="direccion">Tus apellidos</label>
+        <input type="text" id="direccion" name="direccion" required><br><br>
+
+        <label for="ciudad">DNI</label>
+        <input type="text" id="ciudad" name="ciudad" required><br><br>
+
+        <label for="pais">Nº de teléfono</label>
+        <input type="text" id="pais" name="pais" required><br><br>
+
+        <label for="estado">¿Tienes hijos?</label>
+        <input type="text" id="estado" name="estado" required><br><br>
+
+        <label for="codigo_postal">Tu código postal</label>
+        <input type="text" id="codigo_postal" name="codigo_postal" required pattern="[0-9]{5}"><br><br>
+
+        <label for="pais">Nacionalidad</label>
+        <input type="text" id="pais" name="pais" required><br><br>
+
+        <input type="submit" value="Enviar">
+    </form>
+
+    <a href="#inicio"><img style="position: fixed; bottom: 22%; right: 2%" src="Flechanegra.png" width="30" height="30"></a>
+
+    <footer style="color: white;">
+        <img src="logo.png" alt="logo" height="50" width="50">
+        <p>Página de Negocio Ficticio realizado por Adrián S.C</p>
+        <p>Enlace al Github pinchar en el emoticono <a href="https://github.com/AdrixTyLe-coder?tab=repositories">&#127936;</a></p>
+    </footer>
+
+</body>
+
+</html>

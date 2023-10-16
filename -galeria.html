@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Santos SPORT</title>
+    <link rel="icon" href="logo.png">
+    <style>
+
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: #333; 
+            padding: 10px 20px;
+        }
+
+        header img {
+            height: 50px; 
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+
+        nav li {
+            margin: 0 10px;
+        }
+
+        nav a {
+            color: #fff; 
+            text-decoration: none;
+        }
+
+        nav a.active {
+            color: greenyellow;
+        }
+        
+        body {
+            background-image: url(lisoazul.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 50%;
+            
+        }
+
+        table img {
+            width: 250px;
+            height: 200px; 
+        }
+
+        td {
+            border: 1px solid #ccc;
+            padding: 8px;
+            text-align: center;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        th {
+            text-align: left;
+            color:  gold;
+            font: bold;
+            padding: 10px;
+        }
+
+        footer {
+            background-color: #333;
+            text-align: center;
+            padding: 10px;
+            position: sticky;
+            bottom: 0;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <section id="inicio"></section>
+
+    <header>
+        <img src="logo.png" alt="logo" >
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="-galeria.html" class="active">Galería</a></li>
+                <li><a href="-ubicación.html">Ubicación</a></li>
+                <li><a href="-contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<center>
+    <table style="color: white;">
+
+        <tr>
+        <th colspan="3">Ropa deportiva</th>
+        <th></th>
+        <th></th>
+        </tr>
+
+        <tr>
+            <td>Boxeo</td>
+            <td><img src="Camiseta boxeo.jpg"> <br> Camiseta Boxeo Española <br> 10€</td>
+            <td><img src="Camiseta de boxeo2.jpg">  <br> Camiseta Boxeo <br> 10€</td>
+        </tr>
+
+        <tr>
+            <td>Fútbol</td>
+            <td><img src="Camiseta betis.jpg"> <br> Camiseta del Betis (Es un ejemplo no bajes nota &#9829;) <br> 300€</td>
+            <td><img src="Camiseta Málaga.jpg"> <br> Camiseta del Málaga <br> 100€</td>
+        </tr>
+
+        <tr>
+            <td>Baloncesto</td>
+            <td><img src="Camiseta baloncesto.jpg"> <br> Camiseta Lakers <br> 120€</td>
+            <td><img src="Camiseta baloncesto2.jpg"> <br> Camiseta Jordan <br> 80€</td>
+        </tr>
+
+        <tr>
+            <th colspan="3">Calzado</th>
+            <th></th>
+            <th></th>
+        </tr>
+
+        <tr>
+            <td>Nike</td>
+            <td><img src="ZapatillaNike.png"> <br> Nike Dunk Low Retro <br> 119,99€</td>
+            <td><img src="ZapatillaNike2.png"> <br> Nike Air Max Plus <br> 132,97€</td>
+        </tr>
+        <tr>
+            <td>Adidas</td>
+            <td><img src="ZapatillaAd.png"> <br> Zapatilla Samba OG <br> 120€</td>
+            <td><img src="ZapatillaAd2.png"> <br> Zapatilla Runfalcon 3 <br> 60€</td>
+        </tr>
+
+        <tr>
+            <td>Converse</td>
+            <td><img src="ZapatillaCon.png"> <br> Chuck Taylor All Star Platform Canvas <br> 85,00€</td>
+            <td><img src="ZapatillaCon2.png"> <br> Chuck Taylor All Star Construct <br> 95,00€</td>
+        </tr>
+
+        <tr>
+            <th colspan="3">Accesorios deportivos</th>
+            <th></th>
+            <th></th>
+        </tr>
+
+        <tr>
+            <td>Boxeo</td>
+            <td><img src="guantesbox.png"> <br> Guantes de boxeo Venum Contender <br> 44,95€</td>
+            <td><img src="vendasbox.png"> <br> Vendas de boxeo Venum blanco (Par) <br> 8,95€</td>
+        </tr>
+
+        <tr>
+            <td>Fútbol</td>
+            <td><img src="tacosfut.png"> <br> Bota Nike Tiempo Legend 9 Elite FG <br> 216,00€</td>
+            <td><img src="pelota.png"> <br> Balón Fútbol Nike Pitch Team Football <br> 16,65€</td>
+        </tr>
+
+        <tr>
+            <td>Baloncesto</td>
+            <td><img src="mochila.png"> <br> Mochila nike hoops Elite Blanca <br> 74,90€</td>
+            <td><img src="pelotabal.png"> <br> Jordan Ultimate 2 BRED <br> 44,90€</td>
+        </tr>
+
+    </table>
+</center>
+
+    <a href="#inicio"><img style="position: fixed; bottom: 22%; right: 2%" src="Flecha.jpg" width="30" height="30"></a>
+
+    <footer style="color: white;">
+        <img src="logo.png" alt="logo" height="50" width="50">
+        <p>Página de Negocio Ficticio realizado por Adrián S.C</p>
+        <p>Enlace al Github pinchar en el emoticono <a href="https://github.com/AdrixTyLe-coder?tab=repositories">&#127936;</a></p>
+    </footer>
+
+</body>
+</html>
